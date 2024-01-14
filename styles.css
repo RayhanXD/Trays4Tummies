@@ -1,23 +1,24 @@
+@import url('http://fonts.googleapis.com/css?family=Manrope');
 /* Reset some default styles of the browser */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: #554640;
+    font-family: Manrope;
 }
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6em;
-    background-color: #F7F7F7;
+    background-color: #CDE6F5;
 }
-
 /* Style the navigation bar */
 nav {
-    background-color: #333;
-    color: #fff;
+    background-color: #8DA7BE;
+    color: #554640;
     padding: 15px;
+    border-color: #707078;
 }
-
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -25,26 +26,26 @@ nav ul {
     padding: 0;
     text-align: right;
 }
-
 .title {
     margin-right: auto;
 }
-#logo {
-    width: 100%;
-    display: block;
-    margin: auto;
+.homeIntro {
+    text-align: center;
+    font-weight: normal;
+    padding: 20px;
 }
-
 nav ul li {
     display: inline;
     margin-right: 20px;
 }
-
 nav ul li a {
-    color: #fff;
+    color: #554640;
     text-decoration: none;
 }
-
+nav ul li a:hover {
+    color: #CDE6F5;
+    text-decoration: none;
+}
 /* Style the header */
 header {
     background-color: #f4f4f4;
@@ -52,12 +53,10 @@ header {
     padding: 10px;
     text-align: center;
 }
-
-/* Style the main content */
-main{
-    padding: 20px;
+main {
     text-align: center;
     font-weight: normal;
+    padding: 20px;
 }
 main h1 {
     font-size: 400%;
@@ -65,8 +64,7 @@ main h1 {
 }
 /* Style the footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #8DA7BE;
     text-align: center;
     padding: 10px;
     position: fixed;
