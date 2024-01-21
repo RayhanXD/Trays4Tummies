@@ -44,6 +44,13 @@ nav ul li a:hover {
 .title {
     margin-right: auto;
 }
+
+/*styling the homepage*/
+
+#home {
+    text-align: center;
+    padding: 30px;
+}
 #logo {
     width: 50%;
     height: auto;
@@ -60,12 +67,7 @@ nav ul li a:hover {
         transform: translate3d(0, 5px, 0); 
     } 
 }
-.homeIntro {
-    text-align: center;
-    font-weight: normal;
-    padding: 30px;
-}
-h3 {
+#home h3 {
     padding: 10px;
 }
 #link {
@@ -76,6 +78,48 @@ h3 {
 #link:hover {
     transition: all .3s;
     color: #E27DA0;
+}
+
+/*styling the about page*/
+
+#about {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 2%;
+}
+#about h1 {
+    margin: 5%;
+    padding: 5%;
+    font-size: 300%;
+    color: #248542;
+    box-shadow: 10px 10px 20px lightgray;
+    transition: all .3s ease-in-out;
+}
+#about h1:hover {
+    transition: all .3s;
+    color: #EAB149;
+}
+#about p {
+    margin: 5%;
+    padding: 5%;
+    color: #EAB149;
+    box-shadow: 10px 10px 20px lightgray;
+    transition: all .3s ease-in-out;
+}
+#about p:hover {
+    transition: all .3s;
+    color: #248542;
+}
+#pic1 {
+    max-width: 90%;
+    box-shadow: 10px 10px 20px lightgray;
+}
+
+/*styling the footer*/
+
+#about #future {
+    margin-bottom: 100px;
 }
 footer {
     background-color: #248542;
