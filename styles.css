@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Manrope;
+    transition: all .3s ease-in-out;
 }   
 body {
     font-family: Arial, sans-serif;
@@ -15,7 +16,6 @@ body {
 nav {
     color: #248542;
     padding: 15px;
-    transition: all .3s ease-in-out;
     box-shadow: 0px 10px 20px lightgray;
 }
 nav:hover {
@@ -74,10 +74,8 @@ nav ul li a:hover {
 #link {
     color: #248542;
     text-decoration: none;
-    transition: all .3s ease-in-out;
 }
 #link:hover {
-    transition: all .3s;
     color: #E27DA0;
 }
 
@@ -95,11 +93,10 @@ nav ul li a:hover {
     font-size: 300%;
     color: #248542;
     box-shadow: 10px 10px 20px lightgray;
-    transition: all .3s ease-in-out;
 }
 #about h1:hover {
     transition: all .3s;
-    color: #EAB149;
+    color: #E27DA0;
     box-shadow: 10px 10px 20px #EAB149;
 }
 #about p {
@@ -107,11 +104,10 @@ nav ul li a:hover {
     padding: 5%;
     color: #EAB149;
     box-shadow: 10px 10px 20px lightgray;
-    transition: all .3s ease-in-out;
 }
 #about p:hover {
     transition: all .3s;
-    color: #248542;
+    color: #E27DA0;
     box-shadow: 10px 10px 20px #EAB149;
 }
 #pic1 {
@@ -137,11 +133,10 @@ nav ul li a:hover {
     font-size: 300%;
     color: #248542;
     box-shadow: 10px 10px 20px lightgray;
-    transition: all .3s ease-in-out;
 }
 #accomplishments h1:hover {
     transition: all .3s;
-    color: #EAB149;
+    color: #E27DA0;
     box-shadow: 10px 10px 20px #EAB149;
 }
 #accomplishments h2 {
@@ -150,11 +145,10 @@ nav ul li a:hover {
     font-size: 175%;
     color: #248542;
     box-shadow: 10px 10px 20px lightgray;
-    transition: all .3s ease-in-out;
 }
 #accomplishments h2:hover {
     transition: all .3s;
-    color: #EAB149;
+    color: #E27DA0;
     box-shadow: 10px 10px 20px #EAB149;
 }
 #accomplishments img {
@@ -166,11 +160,10 @@ nav ul li a:hover {
     padding: 5%;
     color: #EAB149;
     box-shadow: 10px 10px 20px lightgray;
-    transition: all .3s ease-in-out;
 }
 #accomplishments p:hover {
     transition: all .3s;
-    color: #248542;
+    color: #E27DA0;
     box-shadow: 10px 10px 20px #EAB149;
 }
 #accomplishments {
@@ -190,14 +183,10 @@ nav ul li a:hover {
     font-size: 300%;
     color: #248542;
     box-shadow: 10px 10px 20px lightgray;
-    transition: all .3s ease-in-out;
 }
 #contact h1:hover {
-    color: #EAB149;
+    color: #E27DA0;
     box-shadow: 10px 10px 20px #EAB149;
-}
-#profiles {
-    transition: all .3s ease-in-out;
 }
 #section {
     display: flex;
@@ -215,10 +204,15 @@ nav ul li a:hover {
     margin-bottom: 20px;
     padding: 20px;
     box-shadow: 10px 10px 20px lightgray;
-    transition: all .3s ease-in-out;
 }
 #section #container:hover {
     box-shadow: 10px 10px 20px #EAB149;
+}
+#section #container p {
+    color: #248542;
+}
+#section #container p:hover {
+    color: #E27DA0;
 }
 #email {
     text-align: center;
@@ -232,18 +226,16 @@ nav ul li a:hover {
     font-size: 300%;
     color: #248542;
     box-shadow: 10px 10px 20px lightgray;
-    transition: all .3s ease-in-out;
 }
 #email h1:hover {
     box-shadow: 10px 10px 20px #EAB149;
 }
 #email #here {
     color: #EAB149;
-    transition: all .3s ease-in-out;
     text-decoration: none;
 }
 #email #here:hover {
-    color: #248542;
+    color: #E27DA0;
 }
 
 footer {
