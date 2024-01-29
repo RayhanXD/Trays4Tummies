@@ -16,6 +16,7 @@ nav {
     color: #248542;
     padding: 15px;
     transition: all .3s ease-in-out;
+    box-shadow: 0px 10px 20px lightgray;
 }
 nav:hover {
     box-shadow: 0px 10px 20px #EAB149;
@@ -64,7 +65,7 @@ nav ul li a:hover {
         transform: translate3d(0, 0, 0); 
     } 
     to { 
-        transform: translate3d(0, 5px, 0); 
+        transform: translate3d(0, 10px, 0); 
     } 
 }
 #home h3 {
@@ -73,7 +74,7 @@ nav ul li a:hover {
 #link {
     color: #248542;
     text-decoration: none;
-    transition-timing-function: ease-in-out;
+    transition: all .3s ease-in-out;
 }
 #link:hover {
     transition: all .3s;
@@ -86,7 +87,7 @@ nav ul li a:hover {
     text-align: center;
     max-width: 800px;
     margin: auto;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 #about h1 {
     margin: 5%;
@@ -99,6 +100,7 @@ nav ul li a:hover {
 #about h1:hover {
     transition: all .3s;
     color: #EAB149;
+    box-shadow: 10px 10px 20px #EAB149;
 }
 #about p {
     margin: 5%;
@@ -110,6 +112,7 @@ nav ul li a:hover {
 #about p:hover {
     transition: all .3s;
     color: #248542;
+    box-shadow: 10px 10px 20px #EAB149;
 }
 #pic1 {
     max-width: 90%;
@@ -121,6 +124,128 @@ nav ul li a:hover {
 #about #future {
     margin-bottom: 100px;
 }
+
+#accomplishments {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 1%;
+}
+#accomplishments h1 {
+    margin: 5%;
+    padding: 5%;
+    font-size: 300%;
+    color: #248542;
+    box-shadow: 10px 10px 20px lightgray;
+    transition: all .3s ease-in-out;
+}
+#accomplishments h1:hover {
+    transition: all .3s;
+    color: #EAB149;
+    box-shadow: 10px 10px 20px #EAB149;
+}
+#accomplishments h2 {
+    margin: 5%;
+    padding: 5%;
+    font-size: 175%;
+    color: #248542;
+    box-shadow: 10px 10px 20px lightgray;
+    transition: all .3s ease-in-out;
+}
+#accomplishments h2:hover {
+    transition: all .3s;
+    color: #EAB149;
+    box-shadow: 10px 10px 20px #EAB149;
+}
+#accomplishments img {
+    width: 750px;
+    height: auto;
+}
+#accomplishments p {
+    margin: 5%;
+    padding: 5%;
+    color: #EAB149;
+    box-shadow: 10px 10px 20px lightgray;
+    transition: all .3s ease-in-out;
+}
+#accomplishments p:hover {
+    transition: all .3s;
+    color: #248542;
+    box-shadow: 10px 10px 20px #EAB149;
+}
+#accomplishments {
+    margin-bottom: 100px;
+}
+
+/*VED*/
+#contact {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 1%;
+}
+#contact h1 {
+    margin: 5%;
+    padding: 5%;
+    font-size: 300%;
+    color: #248542;
+    box-shadow: 10px 10px 20px lightgray;
+    transition: all .3s ease-in-out;
+}
+#contact h1:hover {
+    color: #EAB149;
+    box-shadow: 10px 10px 20px #EAB149;
+}
+#profiles {
+    transition: all .3s ease-in-out;
+}
+#section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+#section #container {
+    height: 225px;
+    width: 225px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px lightgray;
+    transition: all .3s ease-in-out;
+}
+#section #container:hover {
+    box-shadow: 10px 10px 20px #EAB149;
+}
+#email {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+#email h1 {
+    margin: 5%;
+    padding: 5%;
+    font-size: 300%;
+    color: #248542;
+    box-shadow: 10px 10px 20px lightgray;
+    transition: all .3s ease-in-out;
+}
+#email h1:hover {
+    box-shadow: 10px 10px 20px #EAB149;
+}
+#email #here {
+    color: #EAB149;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+#email #here:hover {
+    color: #248542;
+}
+
 footer {
     background-color: #248542;
     color: white;
