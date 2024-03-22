@@ -169,7 +169,6 @@ nav ul li a:hover {
 #accomplishments {
     margin-bottom: 100px;
 }
-
 /*VED*/
 #contact {
     text-align: center;
@@ -188,6 +187,12 @@ nav ul li a:hover {
     color: #E27DA0;
     box-shadow: 10px 10px 20px #EAB149;
 }
+#section #container img {
+    max-width: 60%;
+}
+#section #container p {
+    width: auto;
+}
 #section {
     display: flex;
     flex-direction: row;
@@ -196,6 +201,9 @@ nav ul li a:hover {
     text-align: center;
 }
 #section #container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 225px;
     width: 225px;
     margin-left: 40px;
@@ -204,6 +212,9 @@ nav ul li a:hover {
     margin-bottom: 20px;
     padding: 20px;
     box-shadow: 10px 10px 20px lightgray;
+}
+#section #container #officer {
+    height: 50%;
 }
 #section #container:hover {
     box-shadow: 10px 10px 20px #EAB149;
